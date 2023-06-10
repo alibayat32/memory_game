@@ -5,3 +5,8 @@
 
 
 using namespace std;
+
+int get_random_digit() {
+    return rand() % 8 + 2;
+}
+
